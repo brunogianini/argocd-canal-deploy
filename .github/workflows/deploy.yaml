@@ -44,7 +44,7 @@ jobs:
               run: |
                 ls
                 cd kubernetes
-                kustomize edit set imagem imagem=blgianini/canal-deploy:${{ github.sha }}
+                kustomize edit set image imagem=blgianini/canal-deploy:${{ github.sha }}
 
             - name: Criando commit tag da imagem
               run: |
