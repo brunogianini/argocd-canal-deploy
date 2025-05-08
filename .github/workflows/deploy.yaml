@@ -52,4 +52,5 @@ jobs:
                 git config --local user.name "Deploy Action"
                 git add .
                 git commit -m "Mudando a tag da imagem"
+                git pull --rebase
                 git push
